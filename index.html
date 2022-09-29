@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="/styles/custom.css">
+    <link rel="stylesheet" href="/styles/custom.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
@@ -22,12 +22,16 @@
   <body>
     <header class="header">
       <div class="logo-header">
-        <img class="logo" src="/assets/img/logo-casa.svg" alt="Logo Casa dos Gatos" />
+        <img
+          class="logo"
+          src="/assets/img/logo-casa.svg"
+          alt="Logo Casa dos Gatos"
+        />
         <h1 class="title">Casa dos Gatos</h1>
       </div>
       <nav class="navbar">
         <ul class="navbar-list">
-          <li><a class="item-list" href="#history">NOSSA HISTÓRIA</a></li>
+          <li><a class="item-list" href="#story">NOSSA HISTÓRIA</a></li>
           <li><a class="item-list" href="#help">COMO AJUDAR?</a></li>
           <li><a class="item-list" href="#shop">LOJA CASA DU GATÔ</a></li>
           <li><a class="item-list" href="#contact">CONTATO</a></li>
@@ -35,13 +39,13 @@
       </nav>
     </header>
 
-    <section>
-      <div>
-        <h2>
-          A <b>Casa dos Gatos</b> é uma ONG que realiza o trabalho de Resgate,
-          Castração e Doação de gatos em Curitiba.
+    <section class="hero">
+      <div class="hero-content">
+        <h2 class="hero-title">
+          A <b>Casa dos Gatos</b> é uma ONG que realiza o <br />
+          trabalho de Resgate, Castração e Doação de gatos em Curitiba.
         </h2>
-        <a type="button" href="#history">SAIBA MAIS</a>
+        <a class="hero-button" type="button" href="#history">SAIBA MAIS</a>
       </div>
       <div>
         <img
@@ -51,32 +55,32 @@
       </div>
     </section>
 
-    <section>
-      <div>
-        <h3>NOSSA HISTÓRIA</h3>
-        <p>
+    <section class="story">
+      <div class="story-content" id="story">
+        <h3 class="story-title">NOSSA HISTÓRIA</h3>
+        <p class="story-text">
           Tudo começou em 2017, Aline (fundadora da ONG) e Rafael (seu marido)
           souberam de uma casa abandonada com muitos gatos através dos seus
           amigos.
-        </p>
-        <p>
+        </p> <br>
+        <p class="story-text">
           Ao chegarem no local, conversaram com um vizinho que alimentava os
           gatos que ali viviam e descobriram que a casa tinha dono: um idoso
           acumulador, que, infelizmente, havia sido hospitalizado.
-        </p>
-        <p>
+        </p> <br>
+        <p class="story-text">
           Aline e Rafael realizaram doação de ração para os felinos do local e
           nesse dia retornaram para casa. Porém, a história dos bichanos tocou
           seus corações, então ali começaria essa linda missão.
-        </p>
-        <p>
+        </p> <br>
+        <p class="story-text">
           O projeto ganhou o nome “Casa dos Gatos” por conta dessa história, e
           começou oficialmente no dia 20 de Janeiro de 2018. Lá higienizaram o
           ambiente, e também, iniciaram o C.E.D. (Captura, esterilização e
           devolução). Esses animais eram pegos, levados à clinica, castrados,
           examinados e após a recuperação, devolvidos ao seu habitat.
-        </p>
-        <p>
+        </p> <br>
+        <p class="story-text">
           Depois de diversas capturas, perceberam que alguns filhotes, diferente
           dos gatos adultos, poderiam ser sociáveis e ganhar um lar. Graças ao
           trabalho da equipe da Casa dos Gatos, apoio da clínica parceira e
@@ -84,10 +88,10 @@
           através da adoção responsável.
         </p>
       </div>
-      <div>
+      <div class="story-video">
         <iframe
-          width="800"
-          height="503"
+          width="462"
+          height="260"
           src="https://www.youtube.com/embed/B2MxFEjuTGo"
           title="A história da Casa dos Gatos"
           frameborder="0"
@@ -97,7 +101,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="help">
       <div>
         <h3>COMO POSSO AJUDAR?</h3>
         <p>Saiba como você pode contribuir com a ONG Casa dos Gatos:</p>
@@ -106,7 +110,7 @@
         <ul>
           <li>
             <img
-              src=""
+              src="./assets/img/donate.svg"
               alt="Circulo azul com icone representando Doação"
               width="300"
             />
@@ -119,7 +123,7 @@
           </li>
           <li>
             <img
-              src=""
+              src="/assets/img/adopt.svg"
               alt="Circulo azul com icone representando Adoção"
               width="300"
             />
@@ -132,7 +136,7 @@
           </li>
           <li>
             <img
-              src=""
+              src="/assets/img/volutary.svg"
               alt="Circulo azul com icone representando Voluntariado"
               width="300"
             />
@@ -151,7 +155,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="shop">
       <h5>
         E temos novidades...
         <b>CONFIRA NOSSA LOJA!</b>
@@ -178,7 +182,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="contact">
       <div>
         <h3>ENTRE EM CONTATO CONOSCO!</h3>
         <p>
