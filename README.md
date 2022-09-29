@@ -11,18 +11,6 @@ Para instalar o projeto basta:
 git clone https://github.com/dayhele/AT-casa-dos-gatos.git
 ```
 
-E também instalar as dependências: 
-
-```bash
-yarn 
-```
-
-ou
-
-```bash
-yarn install
-```
-
 O projeto rodará em seu ``` localhost ```
 
 
