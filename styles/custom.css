@@ -83,7 +83,7 @@
   padding-bottom: 36px;
 }
 
-.hero-title b {
+.hero-title span {
   font-weight: 900;
   color: #1c1c1c;
 }
@@ -231,7 +231,7 @@
   margin-bottom: 38px;
 }
 
-.shop-title b {
+.shop-title span {
   font-family: "Nunito", sans-serif;
   font-weight: 900 !important;
   font-size: 24px;
@@ -250,7 +250,7 @@
   font-size: 16px;
   font-weight: 600;
   color: #1c1c1c;
-  list-style-image: url(/assets/img/black-paw.svg);
+  list-style-image: url(/assets/icons/black-paw.svg);
   margin-left: 22px;
 }
 
@@ -332,6 +332,12 @@
   margin-bottom: 32px;
 }
 
+.contact-text span{
+  font-weight: 700;
+  color: #1c1c1c;
+  text-decoration:underline;
+}
+
 .form {
   background-color: #eef7fb;
   width: 352px;
@@ -341,6 +347,7 @@
 
 .form-input {
   width: 274px;
+  height: 24px;
   margin: 8px 0 16px 0;
 }
 
@@ -360,5 +367,53 @@ textarea {
 .map {
   justify-content: center;
   display: flex;
+  align-items: end;
+}
+
+.footer {
+  background-color: #32b5eb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  height: 112px;
+  padding: 0px 98px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.footer-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900 !important;
+  font-size: 16px;
+  color: #fdfdfd;
+}
+
+.footer-infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-text {
+  color: #fdfdfd;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.social-icon {
+  width: 28px;
 }

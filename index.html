@@ -42,7 +42,7 @@
     <section class="hero">
       <div class="hero-content">
         <h2 class="hero-title">
-          A <b>Casa dos Gatos</b> é uma ONG que realiza o <br />
+          A <span>Casa dos Gatos</span> é uma ONG que realiza o <br />
           trabalho de Resgate, Castração e Doação de gatos em Curitiba.
         </h2>
         <a class="button" type="button" href="#story">SAIBA MAIS</a>
@@ -117,8 +117,8 @@
           <li class="card">
             <img
               class="icon"
-              src="./assets/img/donate.svg"
-              alt="Circulo azul com icone representando Doação"
+              src="./assets/icons/donate.svg"
+              alt="Circulo verde com icone representando Doação"
               width="300"
             />
             <h4 class="icon-title">Doação</h4>
@@ -137,8 +137,8 @@
           <li class="card">
             <img
               class="icon"
-              src="/assets/img/adopt.svg"
-              alt="Circulo azul com icone representando Adoção"
+              src="/assets/icons/adopt.svg"
+              alt="Circulo amarelo com icone representando Adoção"
               width="300"
             />
             <h4 class="icon-title">Adoção</h4>
@@ -146,15 +146,13 @@
               >Divulgamos os gatinhos disponíveis em nosso Instagram, mas você
               pode conhecê-los pessoalmente.
             </span>
-            <a class="button" type="button" href="#contact"
-              >VER ENDEREÇO</a
-            >
+            <a class="button" type="button" href="#contact">VER ENDEREÇO</a>
           </li>
           <li class="card">
             <img
               class="icon"
-              src="/assets/img/volutary.svg"
-              alt="Circulo azul com icone representando Voluntariado"
+              src="/assets/icons/volutary.svg"
+              alt="Circulo rosa com icone representando Voluntariado"
               width="300"
             />
             <h4 class="icon-title">Voluntariado</h4>
@@ -177,7 +175,7 @@
       <div class="shop-content">
         <h5 class="shop-title">
           E temos novidades... <br />
-          <b>CONFIRA NOSSA LOJA!</b>
+          <span>CONFIRA NOSSA LOJA!</span>
         </h5>
         <p class="shop-text">
           A Casa Du Gatô é um catshop especializado em encontrar e
@@ -203,10 +201,14 @@
         <img
           class="shop-logo"
           src="/assets/img/casa-du-gato-logo.webp"
-          alt=""
+          alt="Logo da loja Casa Du Gatô"
           srcset=""
         />
-        <img class="cat-image" src="/assets/img/torre-bolinhas.svg" alt="" />
+        <img
+          class="cat-image"
+          src="/assets/img/torre-bolinhas.svg"
+          alt="Gato filhote brincando com torre de bolinhas"
+        />
       </div>
     </section>
 
@@ -215,20 +217,25 @@
         <h3 class="contact-title">ENTRE EM CONTATO CONOSCO!</h3>
         <p class="contact-text">
           Você pode enviar uma mensagem por aqui ou falar conosco diretamente
-          pelo e-mail <b>casadosgatoscuritiba@gmail.com</b>.
+          pelo e-mail <span>casadosgatoscuritiba@gmail.com</span>.
         </p>
 
         <div class="contact-form">
           <form class="form" action="">
             <label class="form-label" for="name">Nome:</label><br />
             <input class="form-input" type="text" id="name" name="name" /><br />
-            <label  class="form-label" for="email">E-mail:</label><br />
-            <input  class="form-input" type="email" id="email" name="email" /><br />
-            <label  class="form-label" for="tel">Telefone:</label><br />
-            <input  class="form-input" type="tel" id="tel" name="tel" /><br />
-            <label  class="form-label" for="tel">Mensagem:</label> <br />
+            <label class="form-label" for="email">E-mail:</label><br />
+            <input
+              class="form-input"
+              type="email"
+              id="email"
+              name="email"
+            /><br />
+            <label class="form-label" for="tel">Telefone:</label><br />
+            <input class="form-input" type="tel" id="tel" name="tel" /><br />
+            <label class="form-label" for="tel">Mensagem:</label> <br />
             <textarea rows="5" cols="34" name="description"> </textarea> <br />
-            <input class="button" type="submit" value="Submit" />
+            <input class="button" type="submit" value="ENVIAR" />
           </form>
         </div>
       </div>
@@ -245,24 +252,34 @@
       </div>
     </section>
 
-    <footer>
-      <p>SIGA-NOS NAS REDES SOCIAIS</p>
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" srcset="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" srcset="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" srcset="" /></a>
-        </li>
-      </ul>
-      <span
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footer-title">SIGA-NOS NAS REDES SOCIAIS</p>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/casadosgatoscuritiba/"
+              ><img class="social-icon" src="/assets/icons/facebook.svg" alt="Icone branco Facebook" srcset=""
+            /></a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/casadosgatoscuritiba/"
+              ><img class="social-icon" src="/assets/icons/instagram.svg" alt="Icone branco Instagram" srcset=""
+            /></a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.youtube.com/c/CanalDuGat%C3%B4"
+              ><img class="social-icon" src="/assets/icons/youtube.svg" alt="Icone branco Youtube" srcset=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-infos">
+      <span class="info-text"
         >R. Prof. Nivaldo Braga, 705 - Capão da Imbuia - Curitiba, Paraná -
         82900-090</span
       >
-      <span>Telefone: (41) 9 9243-6754</span>
+      <span class="info-text">Telefone: (41) 9 9243-6754</span>
     </footer>
+  </div>
   </body>
 </html>
