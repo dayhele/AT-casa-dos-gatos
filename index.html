@@ -20,13 +20,14 @@
     <title>Casa dos Gatos</title>
   </head>
   <body>
-    <header class="header">
+    <header id="top" class="header">
       <div class="logo-header">
         <img
           class="logo"
           src="/assets/img/logo-casa.svg"
           alt="Logo Casa dos Gatos"
         />
+
         <h1 class="title">Casa dos Gatos</h1>
       </div>
       <nav class="navbar">
@@ -45,7 +46,7 @@
           A <span>Casa dos Gatos</span> é uma ONG que realiza o <br />
           trabalho de Resgate, Castração e Doação de gatos em Curitiba.
         </h2>
-        <a class="button" type="button" href="#story">SAIBA MAIS</a>
+        <a class="button" href="#story">SAIBA MAIS</a>
       </div>
       <div>
         <img
@@ -97,7 +98,7 @@
           width="462"
           height="260"
           src="https://www.youtube.com/embed/B2MxFEjuTGo"
-          title="A história da Casa dos Gatos"
+          title="A história da Casa dos Gatos
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -146,7 +147,7 @@
               >Divulgamos os gatinhos disponíveis em nosso Instagram, mas você
               pode conhecê-los pessoalmente.
             </span>
-            <a class="button" type="button" href="#contact">VER ENDEREÇO</a>
+            <a class="button" href="#contact">VER ENDEREÇO</a>
           </li>
           <li class="card">
             <img
@@ -162,7 +163,6 @@
             </span>
             <a
               class="button"
-              type="button"
               href="https://docs.google.com/forms/d/e/1FAIpQLSfGM9ZwDJfmQyEay9uZu1X0N5k9eOOktxwRBjvOTiHib4IM7g/viewform"
               >FORMULÁRIO</a
             >
@@ -193,16 +193,13 @@
             casa ou em nossa loja física;
           </li>
         </ul>
-        <a class="button" type="button" href="https://casadugato.com.br/"
-          >IR PARA À LOJA</a
-        >
+        <a class="button" href="https://casadugato.com.br/">IR PARA À LOJA</a>
       </div>
       <div class="images">
         <img
           class="shop-logo"
           src="/assets/img/casa-du-gato-logo.webp"
           alt="Logo da loja Casa Du Gatô"
-          srcset=""
         />
         <img
           class="cat-image"
@@ -221,7 +218,7 @@
         </p>
 
         <div class="contact-form">
-          <form class="form" action="">
+          <form class="form">
             <label class="form-label" for="name">Nome:</label><br />
             <input class="form-input" type="text" id="name" name="name" /><br />
             <label class="form-label" for="email">E-mail:</label><br />
@@ -249,6 +246,9 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        <a href="#top" class="back">
+          <span class="back-text">Voltar <br> ao topo</span>
+        </a>
       </div>
     </section>
 
@@ -258,28 +258,37 @@
         <ul class="social-list">
           <li class="social-item">
             <a href="https://www.facebook.com/casadosgatoscuritiba/"
-              ><img class="social-icon" src="/assets/icons/facebook.svg" alt="Icone branco Facebook" srcset=""
+              ><img
+                class="social-icon"
+                src="/assets/icons/facebook.svg"
+                alt="Icone branco Facebook"
             /></a>
           </li>
           <li class="social-item">
             <a href="https://www.instagram.com/casadosgatoscuritiba/"
-              ><img class="social-icon" src="/assets/icons/instagram.svg" alt="Icone branco Instagram" srcset=""
+              ><img
+                class="social-icon"
+                src="/assets/icons/instagram.svg"
+                alt="Icone branco Instagram"
             /></a>
           </li>
           <li class="social-item">
             <a href="https://www.youtube.com/c/CanalDuGat%C3%B4"
-              ><img class="social-icon" src="/assets/icons/youtube.svg" alt="Icone branco Youtube" srcset=""
+              ><img
+                class="social-icon"
+                src="/assets/icons/youtube.svg"
+                alt="Icone branco Youtube"
             /></a>
           </li>
         </ul>
       </div>
       <div class="footer-infos">
-      <span class="info-text"
-        >R. Prof. Nivaldo Braga, 705 - Capão da Imbuia - Curitiba, Paraná -
-        82900-090</span
-      >
-      <span class="info-text">Telefone: (41) 9 9243-6754</span>
+        <span class="info-text"
+          >R. Prof. Nivaldo Braga, 705 - Capão da Imbuia - Curitiba, Paraná -
+          82900-090</span
+        >
+        <span class="info-text">Telefone: (41) 9 9243-6754</span>
+      </div>
     </footer>
-  </div>
   </body>
 </html>
